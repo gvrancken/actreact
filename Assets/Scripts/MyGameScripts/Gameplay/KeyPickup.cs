@@ -8,6 +8,7 @@ public class KeyPickup : MonoBehaviour {
 		if (c.CompareTag("Player")) {
 			print ("picked up key");
 			Destroy(gameObject);
+
 		}
 	}
 
